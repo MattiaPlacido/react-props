@@ -11,7 +11,7 @@ function getTagColor(tag) {
     case "php":
       return styles.bg_violet;
     default:
-      return ""; // Classe predefinita o nessuna classe
+      return "";
   }
 }
 export default function Card({ id, title, image, content, tags, published }) {

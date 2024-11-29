@@ -16,7 +16,3 @@
   flex-wrap: wrap;
   gap: 30px;
 }
-
-.inactive {
-  display: none;
-}

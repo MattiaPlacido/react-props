@@ -58,3 +58,7 @@
 .bg_violet {
   background-color: violet;
 }
+
+.inactive {
+  display: none;
+}

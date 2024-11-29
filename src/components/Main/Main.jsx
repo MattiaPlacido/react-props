@@ -2,6 +2,9 @@ import styles from "./main.module.css";
 import Card from "../Card/Card.jsx";
 import { posts } from "../data/posts.jsx";
 
+// let uniqueTags = [];
+// posts.tags.foreach((tag) => !uniqueTags.includes(tag) && uniqueTags.push(tag));
+
 export default function Main() {
   return (
     <main className={styles.main}>
