@@ -16,10 +16,15 @@
   padding: 10px 10px 25px 10px;
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+
+.card > .container > .container {
+  display: flex;
   gap: 15px;
 }
 
-.card > .container > .button {
+.card .button {
   width: 2rem;
   background-color: #d6a204;
   color: white;
@@ -30,4 +35,25 @@
 
 .card > .container > .button:hover {
   cursor: pointer;
+}
+
+.badge {
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 10%;
+  min-width: 65px;
+  font-size: 1.2rem;
+}
+.bg_red {
+  background-color: red;
+}
+.bg_brown {
+  background-color: brown;
+}
+.bg_blue {
+  background-color: blue;
+}
+.bg_violet {
+  background-color: violet;
 }
