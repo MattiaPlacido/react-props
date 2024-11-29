@@ -1,0 +1,12 @@
+.upper_footer {
+  padding: 30px;
+  background-color: #323235;
+  text-align: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.lower_footer {
+  background-color: #4f4f53;
+  padding: 15px 0;
+}
