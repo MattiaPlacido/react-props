@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <main className={styles.main}>
       <h2>Il mio blog</h2>
-      <div class={styles.container}>
+      <div className={styles.card_container}>
         {posts.map((post) => (
           <Card
             id={post.id}

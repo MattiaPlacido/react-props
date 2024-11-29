@@ -16,7 +16,10 @@ function getTagColor(tag) {
 }
 export default function Card({ id, title, image, content, tags, published }) {
   return (
-    <div className={styles.card} id={id}>
+    <div
+      className={`${styles.card} ${!published ? styles.inactive : ""}`}
+      id={id}
+    >
       <img src={image || "https://placehold.co/600x400"} />
       <div className={styles.container}>
         <h4>
